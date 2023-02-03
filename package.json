@@ -1,0 +1,35 @@
+{
+    "name": "testcomposer",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "angular-ng": "yarn workspace @testcomposer/angular-app ng",
+        "angular-start": "yarn workspace @testcomposer/angular-app start",
+        "angular-build": "yarn workspace @testcomposer/angular-app build",
+        "angular-watch": "yarn workspace @testcomposer/angular-app watch",
+        "angular-test": "yarn workspace @testcomposer/angular-app test",
+        "hardhat-chain": "yarn workspace @testcomposer/hardhat chain",
+        "hardhat-test": "yarn workspace @testcomposer/hardhat test",
+        "hardhat-deploy": "yarn workspace @testcomposer/hardhat run deploy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
