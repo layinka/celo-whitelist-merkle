@@ -7,11 +7,6 @@ import WalletConnectProvider from "@walletconnect/web3-provider";
 import { provider } from 'web3-core';
 
 
-
-@Injectable({
-  providedIn: 'root'
-})
-
 @Injectable({
   providedIn: 'root'
 })
